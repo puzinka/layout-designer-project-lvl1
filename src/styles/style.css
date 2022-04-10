@@ -1,0 +1,79 @@
+/** CSS STYLE **/
+
+:root{
+  /*colors*/
+  --white:#fff;
+  --white-translucent:#d7ccc0;
+  --light:#f5f4f0;
+  --basic:#fe8a02;
+  --basic-dark:#42413c;
+  --dark:#2a2626;
+  --dark-translucent:#908d8b;
+  --brown:#b09a81;
+  --blue:#1085c5;
+
+  /*font*/
+  --color-font:#2A2626;
+  --line-height-font:1.6em;
+  --font-size:16px;
+
+  /*heading*/
+  --line-height-h:1.2em;
+  --h1-size:72px;
+  --h2-size:60px;
+  --h3-size:34px;
+
+  /*sections*/
+  --width-section:1110px;
+  --margin-section-vertical:100px
+}
+
+@font-face{
+  font-family:"OpenSans-Regular";
+  src:"./Fonts/OpenSans/OpenSans-Regular.ttf"
+
+  color:var(--color-font);
+  line-height:var(--line-height-font);
+  font-size:var(--font-size);
+
+}
+@font-face{
+  font-family:"OpenSans-Bold";
+  src:"./Fonts/OpenSans/OpenSans-Bold.ttf"
+
+  color:var(--color-font);
+  line-height:var(--line-height-font);
+  font-size:var(--font-size);
+}
+@font-face{
+  font-family:"Neucha";
+  src:"./Fonts/OpenSans/Neucha-Regular.ttf"
+
+  color:var(--color-font);
+  line-height:var(--line-height-font);
+  font-size:var(--font-size);
+}
+
+/*-----------------------------------------HEADING---------------------------------*/
+h1,
+h2,
+h3{
+  line-height:var(--line-height-h);
+}
+
+h1{
+  font-size:var(--h1-size);
+}
+h2{
+  font-size:var(--h2-size);
+}
+h3{
+  font-size:var(--h3-size);
+}
+
+/*-----------------------------------------SECTIONS--------------------------------*/
+.section{
+  width:var(--width-section);
+  margin:var(--margin-section-vertical) 0;
+  
+}
