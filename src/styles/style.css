@@ -208,9 +208,10 @@ header{
 /*---------------------------------------SECTION-BROWN----------------------------*/
 .main_section_brown{
   background: var(--basic-dark);
-  height: calc(100vh);
+  height: calc(100vh - 200px);
   width: 100vw;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 #navigation{
   display: flex;
@@ -304,5 +305,45 @@ header{
   height: 100%;
 }
 
-
-
+/*-------------------------------------------IKEA-EFFECT-------------------------------*/
+#ikea-effect{
+  position: relative;
+  height: calc(100vh - var(--padding-content-vertical) - var(--padding-content-vertical));
+}
+.main_column-2{
+  column-count: 2;
+  column-gap: 105px;
+  width: var(--width-content);
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_column-2_img{
+  vertical-align: middle;
+}
+.main_column-2_p{
+  font-family:"Neucha";
+}
+.main_column-2_p__size22{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.main_column-2_p__size{
+  font-size: var(--h3-size);
+  margin-top: 25px;
+}
+.main_column-2_h{
+  background: var(--brown);
+  color:var(--white);
+  font-family:"OpenSans-Bold";
+  font-size: 14px;
+  column-span: all;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.main_column-2_text{
+  font-family:"OpenSans-Regular";
+}
+.break-inside{
+  break-before:column;
+}
