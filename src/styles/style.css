@@ -1,4 +1,11 @@
 /** CSS STYLE **/
+*{
+  margin-top:0;
+  margin-left:0;
+}
+body{
+  margin: 0;
+}
 
 :root{
   /*colors*/
@@ -24,13 +31,13 @@
   --h3-size:34px;
 
   /*sections*/
-  --width-section:1110px;
-  --margin-section-vertical:100px
+  --width-content:1110px;
+  --padding-content-vertical:100px
 }
 
 @font-face{
   font-family:"OpenSans-Regular";
-  src:"./Fonts/OpenSans/OpenSans-Regular.ttf"
+  src:url("/styles/Fonts/OpenSans/OpenSans-Regular.ttf");
 
   color:var(--color-font);
   line-height:var(--line-height-font);
@@ -39,15 +46,16 @@
 }
 @font-face{
   font-family:"OpenSans-Bold";
-  src:"./Fonts/OpenSans/OpenSans-Bold.ttf"
+  src:url("/styles/Fonts/OpenSans/OpenSans-Bold.ttf");
 
   color:var(--color-font);
   line-height:var(--line-height-font);
   font-size:var(--font-size);
 }
 @font-face{
+
   font-family:"Neucha";
-  src:"./Fonts/OpenSans/Neucha-Regular.ttf"
+  src:url("/styles/Fonts/Neucha/Neucha-Regular.ttf");
 
   color:var(--color-font);
   line-height:var(--line-height-font);
@@ -63,6 +71,8 @@ h3{
 
 h1{
   font-size:var(--h1-size);
+  font-family:"Neucha";
+  font-weight: lighter;
 }
 h2{
   font-size:var(--h2-size);
@@ -72,8 +82,92 @@ h3{
 }
 
 /*-----------------------------------------SECTIONS--------------------------------*/
-.section{
-  width:var(--width-section);
-  margin:var(--margin-section-vertical) 0;
+.content{
+  width:var(--width-content);
+  padding:var(--padding-content-vertical) 0;
+  margin-left: auto;
+  margin-right: auto;
   
 }
+
+/*---------------------------------------HEADER-----------------------------------*/
+.basic-color{
+  color:var(--basic);
+}
+header{  
+  width: 100vw;
+  height: 100vh;
+  background: var(--light);
+  z-index: -3;
+
+  position: relative;
+}
+.header_columns-2{
+  font-family:"OpenSans-Regular";
+  /*
+  column-count: 2;
+  column-width: 540px;
+  column-gap: 30px;
+  */
+  width:var(--width-content);
+  height: 170px;
+  margin-top: 45px;
+  line-height: var(--line-height-font);
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.column{
+  width: 540px;
+}
+.header_main-img{
+  position: absolute;
+  top: 45px;
+  left: 700px;
+  width: 1095px;
+  z-index: -1;
+}
+.header_button{
+  margin-top: 20px;
+  background: var(--basic);
+  border: none;
+  padding: 12px 24px;
+}
+.header_button_a{
+  color:var(--white);
+  font-family:"OpenSans-Bold";
+  font-size: var(--font-size);
+  text-decoration: none;
+  
+}
+/*---------------------------------------BACKGROUND IMG---------------------------*/
+/*
+.background-img{
+  width: 100vw;
+  height: 100vh;
+  /*
+  margin-left: auto;
+  margin-right: auto;
+  */
+  /*position: absolute;*/
+  /*
+  background: var(--light);
+  z-index: -3;
+  */
+
+
+
+.background-img::after{
+  content: url(/styles/Img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 10%; 
+  position:absolute;
+  top:0;
+  left:0;
+  display: block;
+  margin:0 calc(50vw - 720px);
+  z-index: -2;
+}
+
