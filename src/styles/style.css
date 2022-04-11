@@ -37,7 +37,7 @@ body{
 
 @font-face{
   font-family:"OpenSans-Regular";
-  src:url("/styles/Fonts/OpenSans/OpenSans-Regular.ttf");
+  src:url("Fonts/OpenSans/OpenSans-Regular.ttf");
 
   color:var(--color-font);
   line-height:var(--line-height-font);
@@ -46,7 +46,7 @@ body{
 }
 @font-face{
   font-family:"OpenSans-Bold";
-  src:url("/styles/Fonts/OpenSans/OpenSans-Bold.ttf");
+  src:url("Fonts/OpenSans/OpenSans-Bold.ttf");
 
   color:var(--color-font);
   line-height:var(--line-height-font);
@@ -55,7 +55,7 @@ body{
 @font-face{
 
   font-family:"Neucha";
-  src:url("/styles/Fonts/Neucha/Neucha-Regular.ttf");
+  src:url("Fonts/Neucha/Neucha-Regular.ttf");
 
   color:var(--color-font);
   line-height:var(--line-height-font);
@@ -159,7 +159,7 @@ header{
 
 
 .background-img::after{
-  content: url(/styles/Img/background.png);
+  content: url(Img/background.png);
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 10%; 
