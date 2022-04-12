@@ -374,3 +374,31 @@ main p{
 #hyperbolic-depreciation h2{
   margin-bottom: 25px;
 }
+
+/*--------------------------------------ERRORS IN PLANNING---------------------------*/
+#errors-in-planning{
+  position: relative;
+}
+#errors-in-planning div:nth-child(2){
+  font-family:"Neucha";
+  column-gap: 100px;
+}
+#errors-in-planning h3{
+  background: var(--brown);
+  font-family:"OpenSans-Bold";
+  color:var(--white);
+  font-size: 14px;
+  padding: 5px 0px 5px 10px;
+  column-span: all;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#errors-in-planning img{
+  vertical-align: middle;
+}
+.margin{
+  margin-bottom: 10px;
+}
+#errors-in-planning h2{
+  margin-bottom: 25px;
+}
