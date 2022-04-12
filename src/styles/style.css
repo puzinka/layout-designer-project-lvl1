@@ -318,3 +318,31 @@ main p{
 #premature-optimization h2{
   margin-bottom: 25px;
 }
+
+/*--------------------------------DISTORTION OF NIVELTY------------------------------*/
+#distortion-of-novelty{
+  position: relative;
+}
+#distortion-of-novelty div:nth-child(2){
+  font-family:"Neucha";
+  column-gap: 100px;
+}
+#distortion-of-novelty h3{
+  background: var(--brown);
+  font-family:"OpenSans-Bold";
+  color:var(--white);
+  font-size: 14px;
+  padding: 5px 0px 5px 10px;
+  column-span: all;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#distortion-of-novelty img{
+  vertical-align: middle;
+}
+.margin{
+  margin-bottom: 10px;
+}
+#distortion-of-novelty h2{
+  margin-bottom: 25px;
+}
