@@ -346,3 +346,31 @@ main p{
 #distortion-of-novelty h2{
   margin-bottom: 25px;
 }
+
+/*-------------------------------HYPERBOLIC DEPRECIATION-----------------------------*/
+#hyperbolic-depreciation{
+  position: relative;
+}
+#hyperbolic-depreciation div:nth-child(2){
+  font-family:"Neucha";
+}
+#hyperbolic-depreciation h3{
+  background: var(--white);
+  font-family:"OpenSans-Bold";
+  color:var(--brown);
+  font-size: 14px;
+  padding: 5px 0px 5px 10px;
+  column-span: all;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#hyperbolic-depreciation img{
+  vertical-align: middle;
+  margin-left: -40px;
+}
+.margin{
+  margin-bottom: 10px;
+}
+#hyperbolic-depreciation h2{
+  margin-bottom: 25px;
+}
