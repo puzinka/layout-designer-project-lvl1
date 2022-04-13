@@ -171,7 +171,7 @@ h3{
 header img{
   position: absolute;
   top: 55px;
-  right: 120px;
+  right: -270px;
   height: 525px;
   z-index: -1;
 }
