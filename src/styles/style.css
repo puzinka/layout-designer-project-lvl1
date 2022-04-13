@@ -210,11 +210,12 @@ header article a:hover{
 main{
   text-align: center;
   position: relative;
+  height: 603px;
 }
 .video{
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   position:absolute;
-  bottom: -100px;
+  bottom: -93px;
   left: calc(50vw - 460px);
 }
 main h2{
