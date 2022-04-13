@@ -318,14 +318,8 @@ main p{
   margin-bottom: 25px;
 }
 /*-----------------------------------PREMATURE OPTIMIZATION--------------------------*/
-.column-height{
-  
-}
 #premature-optimization{
   position: relative;
-  /*
-  height: 655px
-  */
 }
 #premature-optimization div:nth-child(2){
   font-family:"Neucha";
@@ -471,8 +465,7 @@ footer a{
   letter-spacing: 0.65px;
 }
 .email_font-size+div{
-  height: 50px;
-  
+  height: 50px;  
 }
 footer input{
   height: calc(50px - 30px);
