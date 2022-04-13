@@ -168,18 +168,31 @@ h3{
 }
 
 /*----------------------------------HEADER------------------------------------------*/
+.header_height{
+  height: 914px;
+}
+.header_box-img{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 525px;
+  margin-bottom: 190px;
+}
 header img{
   position: absolute;
-  top: 55px;
+  top: -45px;
   right: -270px;
   height: 525px;
   z-index: -1;
 }
-header article{
-  margin-top: 195px;
+header h1{
+  position: absolute;
+  top: calc(106px);
 }
-.header_article__margin-bottom{
-  margin-bottom: 45px;
+header article{
+  position: absolute;
+  width: var(--width-content);
+  top: calc(106px + 452px);
 }
 header article a{
   font-family:"OpenSans-Bold";
@@ -187,6 +200,8 @@ header article a{
   text-decoration: none;
   background: var(--basic);
   padding: 12px 24px;
+  position: absolute;
+  top: 207px;
 }
 header article a:hover{
   background: var(--shadow-button);
