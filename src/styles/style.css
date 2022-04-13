@@ -351,7 +351,7 @@ main p{
 }
 #distortion-of-novelty div:nth-child(2){
   font-family:"Neucha";
-  column-gap: 100px;
+  column-gap: 110px;
 }
 #distortion-of-novelty h3{
   background: var(--brown);
@@ -365,6 +365,7 @@ main p{
 }
 #distortion-of-novelty img{
   vertical-align: middle;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 .margin{
   margin-bottom: 10px;
@@ -407,7 +408,7 @@ main p{
 }
 #errors-in-planning div:nth-child(2){
   font-family:"Neucha";
-  column-gap: 100px;
+  column-gap: 110px;
 }
 #errors-in-planning h3{
   background: var(--brown);
@@ -421,6 +422,7 @@ main p{
 }
 #errors-in-planning img{
   vertical-align: middle;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 .margin{
   margin-bottom: 10px;
