@@ -219,8 +219,8 @@ main{
   left: calc(50vw - 460px);
 }
 main h2{
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 14px;
+  margin-bottom: 16px;
 }
 main p{
   margin-bottom: calc(31px + 365px);
