@@ -220,7 +220,7 @@ main{
 }
 main h2{
   margin-top: 4px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 main p{
   margin-bottom: calc(31px + 365px);
