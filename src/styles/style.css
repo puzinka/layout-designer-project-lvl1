@@ -219,6 +219,7 @@ main{
   left: calc(50vw - 460px);
 }
 main h2{
+  margin-top: 3px;
   margin-bottom: 30px;
 }
 main p{
