@@ -218,11 +218,10 @@ main{
   left: calc(50vw - 460px);
 }
 main h2{
-  margin-top: 75px;
   margin-bottom: 30px;
 }
 main p{
-  margin-bottom: calc(25px + 365px);
+  margin-bottom: calc(31px + 365px);
 }
 
 /*---------------------------------NAVIGATION---------------------------------------*/
