@@ -1,11 +1,10 @@
-/** CSS STYLE **/
+/* CSS STYLE */
 * {
   margin-top: 0;
   margin-left: 0;
 }
-
 :root {
-  /*colors*/
+  /* colors */
   --white: #fff;
   --white-translucent: #d7ccc0;
   --light: #f5f4f0;
@@ -15,28 +14,21 @@
   --dark-translucent: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-
   --shadow-button: #ea7600;
-
-
-  /*font*/
+  /* font */
   --line-height-font: 1.6em;
   --font-size: 16px;
-
-  /*heading*/
+  /* heading */
   --line-height-h: 1.2em;
   --h1-size: 72px;
   --h2-size: 60px;
   --h3-size: 34px;
-
   --menu_font-size: 52px;
   --menu_size-number: 64px;
-
-  /*sections*/
+  /* sections */
   --width-content: 1110px;
   --padding-content-vertical: 100px
 }
-
 @font-face {
   font-family: "OpenSans-Regular";
   src: url("Fonts/OpenSans/OpenSans-Regular.ttf");
@@ -49,8 +41,7 @@
   font-family: "Neucha";
   src: url("Fonts/Neucha/Neucha-Regular.ttf");
 }
-
-/*-------------------------------------BASIC SETTING--------------------------------*/
+/* BASIC SETTING */
 body {
   margin: 0;
   overflow-x: hidden;
@@ -60,7 +51,7 @@ html {
   line-height: var(--line-height-font);
   font-size: var(--font-size);
 }
-/*heading*/
+/* heading */
 h1,
 h2,
 h3 {
@@ -78,19 +69,18 @@ h2 {
 h3 {
   font-size: var(--h3-size);
 }
-/*-------------------------------------SHARED SETTINT------------------------------*/
+/* SHARED SETTINT */
 .content {
   width: var(--width-content);
   padding: var(--padding-content-vertical) calc(50vw - var(--width-content) * 0.5);
 }
-/*color*/
+/* color */
 .dark-color {
   color: var(--dark);
 }
 .white-color {
   color: var(--white);
 }
-
 .column-2 {
   column-count: 2;
   column-gap: 30px;
@@ -105,7 +95,7 @@ h3 {
   font-size: var(--h3-size);
   line-height: var(--line-height-h);
 }
-/*-------------------------------------BACKGROUND-----------------------------------*/
+/* BACKGROUND */
 .bg-img-light {
   width: 100%;
   height: 100%;
@@ -166,8 +156,7 @@ h3 {
   background: var(--white);
   z-index: -3;
 }
-
-/*----------------------------------HEADER------------------------------------------*/
+/* HEADER */
 .header_height {
   height: 914px;
 }
@@ -206,7 +195,7 @@ header article a {
 header article a:hover {
   background: var(--shadow-button);
 }
-/*--------------------------------------MAIN----------------------------------------*/
+/* MAIN */
 main {
   text-align: center;
   position: relative;
@@ -225,8 +214,7 @@ main h2 {
 main p {
   margin-bottom: calc(31px + 365px);
 }
-
-/*---------------------------------NAVIGATION---------------------------------------*/
+/* NAVIGATION */
  nav {
   position: relative;
 }
@@ -261,7 +249,6 @@ main p {
   line-height: var(--line-height-h);
   margin-bottom: 10px;
 }
-
 .card:hover {
   background: var(--basic);
   color: var(--white);
@@ -269,7 +256,6 @@ main p {
 .card:hover .card_h {
   color: var(--white);
 }
-
 .navigation_flex-conteiner div:first-child {
   display: flex;
   flex-direction: row;
@@ -288,8 +274,7 @@ main p {
 .navigation_flex-conteiner div:last-child .card {
   height: calc(350px - 48px);
 }
-
-/*---------------------------------IKEA-EFFECT--------------------------------------*/
+/* IKEA-EFFECT */
 #ikea-effect {
   position: relative;
 }
@@ -317,7 +302,7 @@ main p {
 #ikea-effect h2 {
   margin-bottom: 25px;
 }
-/*-----------------------------------PREMATURE OPTIMIZATION--------------------------*/
+/* PREMATURE OPTIMIZATION */
 #premature-optimization {
   position: relative;
 }
@@ -346,8 +331,7 @@ main p {
 #premature-optimization h2 {
   margin-bottom: 25px;
 }
-
-/*--------------------------------DISTORTION OF NIVELTY------------------------------*/
+/* DISTORTION OF NIVELTY */
 #distortion-of-novelty {
   position: relative;
 }
@@ -375,8 +359,7 @@ main p {
 #distortion-of-novelty h2 {
   margin-bottom: 25px;
 }
-
-/*-------------------------------HYPERBOLIC DEPRECIATION-----------------------------*/
+/* HYPERBOLIC DEPRECIATION */
 #hyperbolic-depreciation {
   position: relative;
 }
@@ -405,7 +388,7 @@ main p {
   margin-bottom: 25px;
 }
 
-/*--------------------------------------ERRORS IN PLANNING---------------------------*/
+/* ERRORS IN PLANNING */
 #errors-in-planning {
   position: relative;
 }
@@ -433,8 +416,7 @@ main p {
 #errors-in-planning h2 {
   margin-bottom: 25px;
 }
-
-/*----------------------------------------FOOTER------------------------------------*/
+/* FOOTER */
 footer {
   position: relative;
 }
