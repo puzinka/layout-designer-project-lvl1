@@ -5,16 +5,16 @@
 }
 
 :root {
-  --white: #fff;
-  --white-translucent: #d7ccc0;
-  --light: #f5f4f0;
-  --basic: #fe8a02;
-  --basic-dark: #42413c;
-  --dark: #2a2626;
-  --dark-translucent: #908d8b;
-  --brown: #b09a81;
-  --blue: #1085c5;
-  --shadow-button: #ea7600;
+  --white: rgb(255,255,255);
+  --white-translucent: rgb(215,204,192);
+  --light: rgb(245,244,240);
+  --basic: rgb(254,138,2);
+  --basic-dark: rgb(66,65,60);
+  --dark: rgb(42,38,38);
+  --dark-translucent: rgb(144,141,139);
+  --brown: rgb(176,154,129);
+  --blue: rgb(16,133,197);
+  --shadow-button: rgb(234,118,0);
   --line-height-font: 1.6em;
   --font-size: 16px;
   --line-height-h: 1.2em;
@@ -427,10 +427,6 @@ footer .footer-flex-conteiner + div {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
-.margin {
-  margin-bottom: 10px;
-}
-
 #ikea-effect h2 {
   margin-bottom: 25px;
 }
@@ -496,10 +492,6 @@ footer .footer-flex-conteiner + div {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
-.margin {
-  margin-bottom: 10px;
-}
-
 #distortion-of-novelty h2 {
   margin-bottom: 25px;
 }
@@ -530,10 +522,6 @@ footer .footer-flex-conteiner + div {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
-.margin {
-  margin-bottom: 10px;
-}
-
 #hyperbolic-depreciation h2 {
   margin-bottom: 25px;
 }
@@ -562,10 +550,6 @@ footer .footer-flex-conteiner + div {
 #errors-in-planning img {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
-}
-
-.margin {
-  margin-bottom: 10px;
 }
 
 #errors-in-planning h2 {
