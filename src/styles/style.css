@@ -29,17 +29,17 @@
 
 @font-face {
   font-family: OpenSans-Regular;
-  src: url('Fonts/OpenSans/OpenSans-Regular.ttf');
+  src: url("Fonts/OpenSans/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: OpenSans-Bold;
-  src: url('Fonts/OpenSans/OpenSans-Bold.ttf');
+  src: url("Fonts/OpenSans/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-family: Neucha;
-  src: url('Fonts/Neucha/Neucha-Regular.ttf');
+  src: url("Fonts/Neucha/Neucha-Regular.ttf");
 }
 
 /* BASIC SETTING */
@@ -121,7 +121,7 @@ h3 {
 }
 
 .bg-img-light::after {
-  content: url('Img/background.png');
+  content: url("Img/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.1; 
@@ -144,7 +144,7 @@ h3 {
 }
 
 .bg-img-dark::after {
-  content: url('Img/background.png');
+  content: url("Img/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.1; 
@@ -304,8 +304,8 @@ footer button {
 }
 
 footer button::after {
-  content: '';
-  background-image: url('Img/send.svg');
+  content: "";
+  background-image: url("Img/send.svg");
   position: absolute;
   width: 24px;
   height: 24px;
