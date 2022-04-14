@@ -5,7 +5,6 @@
 }
 
 :root {
-  /* colors */
   --white: #fff;
   --white-translucent: #d7ccc0;
   --light: #f5f4f0;
@@ -16,17 +15,14 @@
   --brown: #b09a81;
   --blue: #1085c5;
   --shadow-button: #ea7600;
-  /* font */
   --line-height-font: 1.6em;
   --font-size: 16px;
-  /* heading */
   --line-height-h: 1.2em;
   --h1-size: 72px;
   --h2-size: 60px;
   --h3-size: 34px;
   --menu-font-size: 52px;
   --menu-size-number: 64px;
-  /* sections */
   --width-content: 1110px;
   --padding-content-vertical: 100px;
 }
@@ -528,7 +524,7 @@ footer a {
 }
 
 .email-font-size+div {
-  height: 50px;  
+  height: 50px;
 }
 
 footer input {
