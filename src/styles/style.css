@@ -50,8 +50,8 @@ body {
 
 html {
   font-family: OpenSans-Regular;
-  line-height: var(--line-height-font);
   font-size: var(--font-size);
+  line-height: var(--line-height-font);
 }
 
 /* heading */
@@ -64,17 +64,11 @@ h3 {
   color: var(--basic);
 }
 
-h1 {
-  font-size: var(--h1-size);
-}
+h1 { font-size: var(--h1-size); }
 
-h2 {
-  font-size: var(--h2-size);
-}
+h2 { font-size: var(--h2-size); }
 
-h3 {
-  font-size: var(--h3-size);
-}
+h3 { font-size: var(--h3-size); }
 
 /* SHARED SETTINT */
 .content {
@@ -83,26 +77,18 @@ h3 {
 }
 
 /* color */
-.dark-color {
-  color: var(--dark);
-}
+.dark-color { color: var(--dark); }
 
-.white-color {
-  color: var(--white);
-}
+.white-color { color: var(--white); }
 
 .column-2 {
   column-count: 2;
   column-gap: 30px;
 }
 
-.breake-before {
-  break-before: column;
-}
+.breake-before { break-before: column; }
 
-.font-size-24px {
-  font-size: 24px;
-}
+.font-size-24px { font-size: 24px; }
 
 .font-size-h3 {
   font-size: var(--h3-size);
@@ -176,9 +162,7 @@ h3 {
   z-index: -3;
 }
 /* HEADER */
-.header-height {
-  height: 914px;
-}
+.header-height { height: 914px; }
 
 .header-box-img {
   position: relative;
@@ -217,9 +201,7 @@ header article a {
   top: 207px;
 }
 
-header article a:hover {
-  background: var(--shadow-button);
-}
+header article a:hover { background: var(--shadow-button); }
 
 /* MAIN */
 main {
@@ -236,18 +218,14 @@ main {
 }
 
 main h2 {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
-main p {
-  margin-bottom: calc(31px + 365px);
-}
+main p { margin-bottom: calc(31px + 365px); }
 
 /* FOOTER */
-footer {
-  position: relative;
-}
+footer { position: relative; }
 
 .footer-flex-conteiner {
   background: var(--basic-dark);
@@ -266,9 +244,7 @@ footer {
   margin-top: 20px;
 }
 
-footer a {
-  color: var(--white);
-}
+footer a { color: var(--white); }
 
 .email-font-size {
   font-size: 18px;
@@ -280,9 +256,7 @@ footer a {
   letter-spacing: 0.65px;
 }
 
-.email-font-size+div {
-  height: 50px;
-}
+.email-font-size+div { height: 50px; }
 
 footer input {
   height: calc(50px - 30px);
@@ -315,13 +289,9 @@ footer button::after {
   background-size: cover;
 }
 
-footer button:hover {
-  background: var(--shadow-button);
-}
+footer button:hover { background: var(--shadow-button); }
 
-footer .footer-flex-conteiner + div a {
-  color: var(--blue);
-}
+footer .footer-flex-conteiner + div a { color: var(--blue); }
 
 footer .footer-flex-conteiner + div {
   text-align: center;
@@ -330,9 +300,7 @@ footer .footer-flex-conteiner + div {
 }
 
 /* NAVIGATION */
- nav {
-  position: relative;
-}
+nav { position: relative; }
 
 .navigation-flex-conteiner {
   display: flex;
@@ -375,9 +343,7 @@ footer .footer-flex-conteiner + div {
   color: var(--white);
 }
 
-.card:hover .card-h {
-  color: var(--white);
-}
+.card:hover .card-h { color: var(--white); }
 
 .navigation-flex-conteiner div:first-child {
   display: flex;
@@ -393,18 +359,12 @@ footer .footer-flex-conteiner + div {
   height: 350px;
 }
 
-.navigation-flex-conteiner div:first-child .card {
-  height: calc(320px - 48px);
-}
+.navigation-flex-conteiner div:first-child .card { height: calc(320px - 48px); }
 
-.navigation-flex-conteiner div:last-child .card {
-  height: calc(350px - 48px);
-}
+.navigation-flex-conteiner div:last-child .card { height: calc(350px - 48px); }
 
 /* IKEA-EFFECT */
-#ikea-effect {
-  position: relative;
-}
+#ikea-effect { position: relative; }
 
 #ikea-effect div:nth-child(2) {
   font-family: Neucha;
@@ -416,7 +376,7 @@ footer .footer-flex-conteiner + div {
   font-family: OpenSans-Bold;
   color: var(--white);
   font-size: 14px;
-  padding: 5px 0px 5px 10px;
+  padding: 5px 0 5px 10px;
   column-span: all;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -427,18 +387,12 @@ footer .footer-flex-conteiner + div {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-#ikea-effect h2 {
-  margin-bottom: 25px;
-}
+#ikea-effect h2 { margin-bottom: 25px; }
 
 /* PREMATURE OPTIMIZATION */
-#premature-optimization {
-  position: relative;
-}
+#premature-optimization { position: relative; }
 
-#premature-optimization div:nth-child(2) {
-  font-family: Neucha;
-}
+#premature-optimization div:nth-child(2) { font-family: Neucha; }
 
 #premature-optimization h3 {
   background: var(--white);
@@ -462,14 +416,10 @@ footer .footer-flex-conteiner + div {
   margin-top: 3px;
 }
 
-#premature-optimization h2 {
-  margin-bottom: 25px;
-}
+#premature-optimization h2 { margin-bottom: 25px; }
 
 /* DISTORTION OF NIVELTY */
-#distortion-of-novelty {
-  position: relative;
-}
+#distortion-of-novelty { position: relative; }
 
 #distortion-of-novelty div:nth-child(2) {
   font-family: Neucha;
@@ -481,7 +431,7 @@ footer .footer-flex-conteiner + div {
   font-family: OpenSans-Bold;
   color: var(--white);
   font-size: 14px;
-  padding: 5px 0px 5px 10px;
+  padding: 5px 0 5px 10px;
   column-span: all;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -492,25 +442,19 @@ footer .footer-flex-conteiner + div {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-#distortion-of-novelty h2 {
-  margin-bottom: 25px;
-}
+#distortion-of-novelty h2 { margin-bottom: 25px; }
 
 /* HYPERBOLIC DEPRECIATION */
-#hyperbolic-depreciation {
-  position: relative;
-}
+#hyperbolic-depreciation { position: relative; }
 
-#hyperbolic-depreciation div:nth-child(2) {
-  font-family: Neucha;
-}
+#hyperbolic-depreciation div:nth-child(2) { font-family: Neucha; }
 
 #hyperbolic-depreciation h3 {
   background: var(--white);
   font-family: OpenSans-Bold;
   color: var(--brown);
   font-size: 14px;
-  padding: 5px 0px 5px 10px;
+  padding: 5px 0 5px 10px;
   column-span: all;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -522,14 +466,10 @@ footer .footer-flex-conteiner + div {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-#hyperbolic-depreciation h2 {
-  margin-bottom: 25px;
-}
+#hyperbolic-depreciation h2 { margin-bottom: 25px; }
 
 /* ERRORS IN PLANNING */
-#errors-in-planning {
-  position: relative;
-}
+#errors-in-planning { position: relative; }
 
 #errors-in-planning div:nth-child(2) {
   font-family: Neucha;
@@ -541,7 +481,7 @@ footer .footer-flex-conteiner + div {
   font-family: OpenSans-Bold;
   color: var(--white);
   font-size: 14px;
-  padding: 5px 0px 5px 10px;
+  padding: 5px 0 5px 10px;
   column-span: all;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -552,6 +492,4 @@ footer .footer-flex-conteiner + div {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-#errors-in-planning h2 {
-  margin-bottom: 25px;
-}
+#errors-in-planning h2 { margin-bottom: 25px;}
