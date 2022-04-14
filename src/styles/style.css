@@ -28,17 +28,17 @@
 }
 
 @font-face {
-  font-family: "OpenSans-Regular";
+  font-family: OpenSans-Regular;
   src: url("Fonts/OpenSans/OpenSans-Regular.ttf");
 }
 
 @font-face {
-  font-family: "OpenSans-Bold";
+  font-family: OpenSans-Bold;
   src: url("Fonts/OpenSans/OpenSans-Bold.ttf");
 }
 
 @font-face {
-  font-family: "Neucha";
+  font-family: Neucha;
   src: url("Fonts/Neucha/Neucha-Regular.ttf");
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 html {
-  font-family: "OpenSans-Regular";
+  font-family: OpenSans-Regular;
   line-height: var(--line-height-font);
   font-size: var(--font-size);
 }
@@ -59,7 +59,7 @@ h1,
 h2,
 h3 {
   line-height: var(--line-height-h);
-  font-family: "Neucha";
+  font-family: Neucha;
   font-weight: lighter;
   color: var(--basic);
 }
@@ -208,7 +208,7 @@ header article {
 }
 
 header article a {
-  font-family: "OpenSans-Bold";
+  font-family: OpenSans-Bold;
   color: var(--white);
   text-decoration: none;
   background: var(--basic);
@@ -229,7 +229,7 @@ main {
 }
 
 .video {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
   position: absolute;
   bottom: -93px;
   left: calc(50vw - 460px);
@@ -260,7 +260,7 @@ footer {
 }
 
 .footer-right-text {
-  font-family: "Neucha";
+  font-family: Neucha;
   font-size: var(--h3-size);
   line-height: var(--line-height-h);
   margin-top: 20px;
@@ -356,7 +356,7 @@ footer .footer-flex-conteiner + div {
 }
 
 .card-number {
-  font-family: "Neucha";
+  font-family: Neucha;
   font-size: 64px;
   line-height: 1em;
   margin-bottom: 40px;
@@ -365,7 +365,7 @@ footer .footer-flex-conteiner + div {
 .card-h {
   font-size: var(--h3-size);
   color: var(--basic);
-  font-family: "Neucha";
+  font-family: Neucha;
   line-height: var(--line-height-h);
   margin-bottom: 10px;
 }
@@ -407,13 +407,13 @@ footer .footer-flex-conteiner + div {
 }
 
 #ikea-effect div:nth-child(2) {
-  font-family: "Neucha";
+  font-family: Neucha;
   column-gap: 110px;
 }
 
 #ikea-effect h3 {
   background: var(--brown);
-  font-family: "OpenSans-Bold";
+  font-family: OpenSans-Bold;
   color: var(--white);
   font-size: 14px;
   padding: 5px 0px 5px 10px;
@@ -424,7 +424,7 @@ footer .footer-flex-conteiner + div {
 
 #ikea-effect img {
   vertical-align: middle;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .margin {
@@ -441,12 +441,12 @@ footer .footer-flex-conteiner + div {
 }
 
 #premature-optimization div:nth-child(2) {
-  font-family: "Neucha";
+  font-family: Neucha;
 }
 
 #premature-optimization h3 {
   background: var(--white);
-  font-family: "OpenSans-Bold";
+  font-family: OpenSans-Bold;
   color: var(--brown);
   font-size: 14px;
   padding: 5px 0px 5px 10px;
@@ -458,7 +458,7 @@ footer .footer-flex-conteiner + div {
 #premature-optimization img {
   vertical-align: middle;
   margin-left: -40px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .margin {
@@ -476,13 +476,13 @@ footer .footer-flex-conteiner + div {
 }
 
 #distortion-of-novelty div:nth-child(2) {
-  font-family: "Neucha";
+  font-family: Neucha;
   column-gap: 110px;
 }
 
 #distortion-of-novelty h3 {
   background: var(--brown);
-  font-family: "OpenSans-Bold";
+  font-family: OpenSans-Bold;
   color: var(--white);
   font-size: 14px;
   padding: 5px 0px 5px 10px;
@@ -493,7 +493,7 @@ footer .footer-flex-conteiner + div {
 
 #distortion-of-novelty img {
   vertical-align: middle;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .margin {
@@ -510,12 +510,12 @@ footer .footer-flex-conteiner + div {
 }
 
 #hyperbolic-depreciation div:nth-child(2) {
-  font-family: "Neucha";
+  font-family: Neucha;
 }
 
 #hyperbolic-depreciation h3 {
   background: var(--white);
-  font-family: "OpenSans-Bold";
+  font-family: OpenSans-Bold;
   color: var(--brown);
   font-size: 14px;
   padding: 5px 0px 5px 10px;
@@ -527,7 +527,7 @@ footer .footer-flex-conteiner + div {
 #hyperbolic-depreciation img {
   vertical-align: middle;
   margin-left: -40px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .margin {
@@ -544,13 +544,13 @@ footer .footer-flex-conteiner + div {
 }
 
 #errors-in-planning div:nth-child(2) {
-  font-family: "Neucha";
+  font-family: Neucha;
   column-gap: 110px;
 }
 
 #errors-in-planning h3 {
   background: var(--brown);
-  font-family: "OpenSans-Bold";
+  font-family: OpenSans-Bold;
   color: var(--white);
   font-size: 14px;
   padding: 5px 0px 5px 10px;
@@ -561,7 +561,7 @@ footer .footer-flex-conteiner + div {
 
 #errors-in-planning img {
   vertical-align: middle;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .margin {
