@@ -1,10 +1,10 @@
 /** CSS STYLE **/
-*{
+* {
   margin-top: 0;
   margin-left: 0;
 }
 
-:root{
+:root {
   /*colors*/
   --white: #fff;
   --white-translucent: #d7ccc0;
@@ -37,25 +37,25 @@
   --padding-content-vertical: 100px
 }
 
-@font-face{
+@font-face {
   font-family: "OpenSans-Regular";
   src: url("Fonts/OpenSans/OpenSans-Regular.ttf");
 }
-@font-face{
+@font-face {
   font-family: "OpenSans-Bold";
   src: url("Fonts/OpenSans/OpenSans-Bold.ttf");
 }
-@font-face{
+@font-face {
   font-family: "Neucha";
   src: url("Fonts/Neucha/Neucha-Regular.ttf");
 }
 
 /*-------------------------------------BASIC SETTING--------------------------------*/
-body{
+body {
   margin: 0;
   overflow-x: hidden;
 }
-html{
+html {
   font-family: "OpenSans-Regular";
   line-height: var(--line-height-font);
   font-size: var(--font-size);
@@ -63,50 +63,50 @@ html{
 /*heading*/
 h1,
 h2,
-h3{
+h3 {
   line-height: var(--line-height-h);
   font-family: "Neucha";
   font-weight: lighter;
   color: var(--basic);
 }
-h1{
+h1 {
   font-size: var(--h1-size);
 }
-h2{
+h2 {
   font-size: var(--h2-size);
 }
-h3{
+h3 {
   font-size: var(--h3-size);
 }
 /*-------------------------------------SHARED SETTINT------------------------------*/
-.content{
+.content {
   width: var(--width-content);
   padding: var(--padding-content-vertical) calc(50vw - var(--width-content) * 0.5);
 }
 /*color*/
-.dark-color{
+.dark-color {
   color: var(--dark);
 }
-.white-color{
+.white-color {
   color: var(--white);
 }
 
-.column-2{
+.column-2 {
   column-count: 2;
   column-gap: 30px;
 }
-.breake-before{
+.breake-before {
   break-before: column;
 }
-.font-size-24px{
+.font-size-24px {
   font-size: 24px;
 }
-.font-size_h3{
+.font-size_h3 {
   font-size: var(--h3-size);
   line-height: var(--line-height-h);
 }
 /*-------------------------------------BACKGROUND-----------------------------------*/
-.bg-img-light{
+.bg-img-light {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -115,11 +115,11 @@ h3{
   background: var(--light);
   z-index: -3;
 }
-.bg-img-light::after{
+.bg-img-light::after {
   content: url(Img/background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 10%; 
+  opacity: 0.1; 
   position: absolute;
   top: 0;
   left: 0;
@@ -127,7 +127,7 @@ h3{
   margin: 0 calc(50vw - 720px);
   z-index: -2;
 }
-.bg-img-dark{
+.bg-img-dark {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -136,11 +136,11 @@ h3{
   background: var(--brown);
   z-index: -3;
 }
-.bg-img-dark::after{
+.bg-img-dark::after {
   content: url(Img/background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 10%; 
+  opacity: 0.1; 
   position: absolute;
   top: 0;
   left: 0;
@@ -148,7 +148,7 @@ h3{
   margin: 0 calc(50vw - 720px);
   z-index: -2;
 }
-.bg-dark{
+.bg-dark {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -157,7 +157,7 @@ h3{
   background: var(--basic-dark);
   z-index: -3;
 }
-.bg-light{
+.bg-light {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -168,33 +168,33 @@ h3{
 }
 
 /*----------------------------------HEADER------------------------------------------*/
-.header_height{
+.header_height {
   height: 914px;
 }
-.header_box-img{
+.header_box-img {
   position: relative;
   margin-left: auto;
   margin-right: auto;
   height: 525px;
   margin-bottom: 190px;
 }
-header img{
+header img {
   position: absolute;
   top: -45px;
   right: -270px;
   height: 525px;
   z-index: -1;
 }
-header h1{
+header h1 {
   position: absolute;
   top: calc(106px);
 }
-header article{
+header article {
   position: absolute;
   width: var(--width-content);
   top: calc(106px + 452px);
 }
-header article a{
+header article a {
   font-family: "OpenSans-Bold";
   color: var(--white);
   text-decoration: none;
@@ -203,44 +203,44 @@ header article a{
   position: absolute;
   top: 207px;
 }
-header article a:hover{
+header article a:hover {
   background: var(--shadow-button);
 }
 /*--------------------------------------MAIN----------------------------------------*/
-main{
+main {
   text-align: center;
   position: relative;
   height: 605px;
 }
-.video{
+.video {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   position: absolute;
   bottom: -93px;
   left: calc(50vw - 460px);
 }
-main h2{
+main h2 {
   margin-top: 0px;
   margin-bottom: 30px;
 }
-main p{
+main p {
   margin-bottom: calc(31px + 365px);
 }
 
 /*---------------------------------NAVIGATION---------------------------------------*/
- nav{
+ nav {
   position: relative;
 }
-.navigation_flex-conteiner{
+.navigation_flex-conteiner {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 100px;
 }
-.navigation_flex-conteiner h2{
+.navigation_flex-conteiner h2 {
   font-size: 52px;
   width: 350px;
 }
-.card{
+.card {
   background: var(--light);
   padding: 24px;
   width: calc(350px - 48px);
@@ -248,56 +248,56 @@ main p{
   display: block;
   color: var(--dark);
 }
-.card_number{
+.card_number {
   font-family: "Neucha";
   font-size: 64px;
   line-height: 1em;
   margin-bottom: 40px;
 }
-.card_h{
+.card_h {
   font-size: var(--h3-size);
   color: var(--basic);
-  font-family:"Neucha";
+  font-family: "Neucha";
   line-height: var(--line-height-h);
   margin-bottom: 10px;
 }
 
-.card:hover{
+.card:hover {
   background: var(--basic);
   color: var(--white);
 }
-.card:hover .card_h{
+.card:hover .card_h {
   color: var(--white);
 }
 
-.navigation_flex-conteiner div:first-child{
+.navigation_flex-conteiner div:first-child {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 340px;
 }
-.navigation_flex-conteiner div:last-child{
+.navigation_flex-conteiner div:last-child {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 350px;
 }
-.navigation_flex-conteiner div:first-child .card{
+.navigation_flex-conteiner div:first-child .card {
   height: calc(320px - 48px);
 }
-.navigation_flex-conteiner div:last-child .card{
+.navigation_flex-conteiner div:last-child .card {
   height: calc(350px - 48px);
 }
 
 /*---------------------------------IKEA-EFFECT--------------------------------------*/
-#ikea-effect{
+#ikea-effect {
   position: relative;
 }
-#ikea-effect div:nth-child(2){
+#ikea-effect div:nth-child(2) {
   font-family: "Neucha";
   column-gap: 110px;
 }
-#ikea-effect h3{
+#ikea-effect h3 {
   background: var(--brown);
   font-family: "OpenSans-Bold";
   color: var(--white);
@@ -307,24 +307,24 @@ main p{
   margin-top: 100px;
   margin-bottom: 20px;
 }
-#ikea-effect img{
+#ikea-effect img {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
-.margin{
+.margin {
   margin-bottom: 10px;
 }
-#ikea-effect h2{
+#ikea-effect h2 {
   margin-bottom: 25px;
 }
 /*-----------------------------------PREMATURE OPTIMIZATION--------------------------*/
-#premature-optimization{
+#premature-optimization {
   position: relative;
 }
-#premature-optimization div:nth-child(2){
+#premature-optimization div:nth-child(2) {
   font-family: "Neucha";
 }
-#premature-optimization h3{
+#premature-optimization h3 {
   background: var(--white);
   font-family: "OpenSans-Bold";
   color: var(--brown);
@@ -334,28 +334,28 @@ main p{
   margin-top: 100px;
   margin-bottom: 20px;
 }
-#premature-optimization img{
+#premature-optimization img {
   vertical-align: middle;
   margin-left: -40px;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
-.margin{
+.margin {
   margin-bottom: 10px;
   margin-top: 3px;
 }
-#premature-optimization h2{
+#premature-optimization h2 {
   margin-bottom: 25px;
 }
 
 /*--------------------------------DISTORTION OF NIVELTY------------------------------*/
-#distortion-of-novelty{
+#distortion-of-novelty {
   position: relative;
 }
-#distortion-of-novelty div:nth-child(2){
+#distortion-of-novelty div:nth-child(2) {
   font-family: "Neucha";
   column-gap: 110px;
 }
-#distortion-of-novelty h3{
+#distortion-of-novelty h3 {
   background: var(--brown);
   font-family: "OpenSans-Bold";
   color: var(--white);
@@ -365,25 +365,25 @@ main p{
   margin-top: 100px;
   margin-bottom: 20px;
 }
-#distortion-of-novelty img{
+#distortion-of-novelty img {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
-.margin{
+.margin {
   margin-bottom: 10px;
 }
-#distortion-of-novelty h2{
+#distortion-of-novelty h2 {
   margin-bottom: 25px;
 }
 
 /*-------------------------------HYPERBOLIC DEPRECIATION-----------------------------*/
-#hyperbolic-depreciation{
+#hyperbolic-depreciation {
   position: relative;
 }
-#hyperbolic-depreciation div:nth-child(2){
+#hyperbolic-depreciation div:nth-child(2) {
   font-family: "Neucha";
 }
-#hyperbolic-depreciation h3{
+#hyperbolic-depreciation h3 {
   background: var(--white);
   font-family: "OpenSans-Bold";
   color: var(--brown);
@@ -393,27 +393,27 @@ main p{
   margin-top: 100px;
   margin-bottom: 20px;
 }
-#hyperbolic-depreciation img{
+#hyperbolic-depreciation img {
   vertical-align: middle;
   margin-left: -40px;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
-.margin{
+.margin {
   margin-bottom: 10px;
 }
-#hyperbolic-depreciation h2{
+#hyperbolic-depreciation h2 {
   margin-bottom: 25px;
 }
 
 /*--------------------------------------ERRORS IN PLANNING---------------------------*/
-#errors-in-planning{
+#errors-in-planning {
   position: relative;
 }
-#errors-in-planning div:nth-child(2){
+#errors-in-planning div:nth-child(2) {
   font-family: "Neucha";
   column-gap: 110px;
 }
-#errors-in-planning h3{
+#errors-in-planning h3 {
   background: var(--brown);
   font-family: "OpenSans-Bold";
   color: var(--white);
@@ -423,22 +423,22 @@ main p{
   margin-top: 100px;
   margin-bottom: 20px;
 }
-#errors-in-planning img{
+#errors-in-planning img {
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
-.margin{
+.margin {
   margin-bottom: 10px;
 }
-#errors-in-planning h2{
+#errors-in-planning h2 {
   margin-bottom: 25px;
 }
 
 /*----------------------------------------FOOTER------------------------------------*/
-footer{
+footer {
   position: relative;
 }
-.footer_flex-conteiner{
+.footer_flex-conteiner {
   background: var(--basic-dark);
   color: var(--white);
   padding: 40px 55px;
@@ -447,27 +447,27 @@ footer{
   justify-content: space-between;
   height: 110px;
 }
-.footer_right-text{
+.footer_right-text {
   font-family: "Neucha";
   font-size: var(--h3-size);
   line-height: var(--line-height-h);
   margin-top: 20px;
 }
-footer a{
+footer a {
   color: var(--white);
 }
-.email_font-size{
+.email_font-size {
   font-size: 18px;
   margin-bottom: 10px;
 }
-.ruls-of-service_font-size{
+.ruls-of-service_font-size {
   font-size: 11px;
   letter-spacing: 0.65px;
 }
-.email_font-size+div{
+.email_font-size+div {
   height: 50px;  
 }
-footer input{
+footer input {
   height: calc(50px - 30px);
   width: calc(415px - 30px);
   vertical-align: middle;
@@ -476,7 +476,7 @@ footer input{
   padding: 15px;
   float: left;
 }
-footer button{
+footer button {
   position: relative;
   background: var(--basic);
   width: 70px;
@@ -484,7 +484,7 @@ footer button{
   outline: none;
   border: none;
 }
-footer button::after{
+footer button::after {
   content: '';
   background-image: url(Img/send.svg);
   position: absolute;
@@ -495,13 +495,13 @@ footer button::after{
   background-repeat: no-repeat;
   background-size: cover;
 }
-footer button:hover{
+footer button:hover {
   background: var(--shadow-button);
 }
-footer .footer_flex-conteiner+div a{
+footer .footer_flex-conteiner+div a {
   color: var(--blue);
 }
-footer .footer_flex-conteiner+div{
+footer .footer_flex-conteiner+div {
   text-align: center;
   margin-top: 60px;
   font-size: 14px;
