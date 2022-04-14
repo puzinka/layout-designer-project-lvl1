@@ -59,7 +59,7 @@ h1,
 h2,
 h3 {
   line-height: var(--line-height-h);
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-weight: lighter;
   color: var(--basic);
 }
@@ -192,7 +192,7 @@ footer {
 }
 
 .footer-right-text {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: var(--h3-size);
   line-height: var(--line-height-h);
   margin-top: 20px;
@@ -252,7 +252,7 @@ footer button:hover {
 }
 
 header article a {
-  font-family: OpenSans-Bold;
+  font-family: OpenSans-Bold, sans-serif;
   color: var(--white);
   text-decoration: none;
   background: var(--basic);
@@ -357,7 +357,7 @@ nav {
 }
 
 .card-number {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 64px;
   line-height: 1em;
   margin-bottom: 40px;
@@ -366,7 +366,7 @@ nav {
 .card-h {
   font-size: var(--h3-size);
   color: var(--basic);
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   line-height: var(--line-height-h);
   margin-bottom: 10px;
 }
@@ -408,13 +408,13 @@ nav {
 }
 
 #ikea-effect div:nth-child(2) {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   column-gap: 110px;
 }
 
 #ikea-effect h3 {
   background: var(--brown);
-  font-family: OpenSans-Bold;
+  font-family: OpenSans-Bold, sans-serif;
   color: var(--white);
   font-size: 14px;
   padding: 5px 0 5px 10px;
@@ -438,12 +438,12 @@ nav {
 }
 
 #premature-optimization div:nth-child(2) {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
 }
 
 #premature-optimization h3 {
   background: var(--white);
-  font-family: OpenSans-Bold;
+  font-family: OpenSans-Bold, sans-serif;
   color: var(--brown);
   font-size: 14px;
   padding: 5px 0 5px 10px;
@@ -473,13 +473,13 @@ nav {
 }
 
 #distortion-of-novelty div:nth-child(2) {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   column-gap: 110px;
 }
 
 #distortion-of-novelty h3 {
   background: var(--brown);
-  font-family: OpenSans-Bold;
+  font-family: OpenSans-Bold, sans-serif;
   color: var(--white);
   font-size: 14px;
   padding: 5px 0 5px 10px;
@@ -503,12 +503,12 @@ nav {
 }
 
 #hyperbolic-depreciation div:nth-child(2) {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
 }
 
 #hyperbolic-depreciation h3 {
   background: var(--white);
-  font-family: OpenSans-Bold;
+  font-family: OpenSans-Bold, sans-serif;
   color: var(--brown);
   font-size: 14px;
   padding: 5px 0 5px 10px;
@@ -533,13 +533,13 @@ nav {
 }
 
 #errors-in-planning div:nth-child(2) {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   column-gap: 110px;
 }
 
 #errors-in-planning h3 {
   background: var(--brown);
-  font-family: OpenSans-Bold;
+  font-family: OpenSans-Bold, sans-serif;
   color: var(--white);
   font-size: 14px;
   padding: 5px 0 5px 10px;
